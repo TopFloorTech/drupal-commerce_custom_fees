@@ -1,0 +1,8 @@
+{
+  "name": "drupal/commerce_custom_fees",
+  "type": "drupal-module",
+  "description": "Commerce Custom Fees",
+  "homepage": "https://github.com/bmcclure/drupal-commerce_custom_fees",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,6 @@
+services:
+  commerce_custom_fees.custom_fees_order_processor:
+    class: Drupal\commerce_custom_fees\CustomFeesOrderProcessor
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: commerce_order.order_processor, priority: 50 }
